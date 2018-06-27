@@ -1,0 +1,38 @@
+{
+  "namespace": "oembed/1.0",
+  "routes": {
+    "/oembed/1.0": {
+      "namespace": "oembed/1.0",
+      "methods": [
+        "GET"
+      ],
+      "endpoints": [
+        {
+          "methods": [
+            "GET"
+          ],
+          "args": {
+            "namespace": {
+              "required": false,
+              "default": "oembed/1.0"
+            },
+            "context": {
+              "required": false,
+              "default": "view"
+            }
+          }
+        }
+      ],
+      "_links": {
+        "self": "https://raw.githubusercontent.com/maldonado2003/maldymanuel/master/1.0"
+      }
+    }
+  },
+  "_links": {
+    "up": [
+      {
+        "href": "https://raw.githubusercontent.com/maldonado2003/maldymanuel/master/wp-json.json"
+      }
+    ]
+  }
+}
